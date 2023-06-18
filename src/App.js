@@ -7,14 +7,14 @@ import movieCard from "./movieCard.jsx";
 
 const API_URL='http://www.omdbapi.com/?i=tt3896198&apikey=48e41bd7'
 
-const movie=
-    {
-        "Title": "The Amazing Spiderman 2 Webb Cut",
-        "Year": "2021",
-        "imdbID": "tt18351128",
-        "Type": "movie",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYzYzZDViNWYtNWViMS00NDMxLThlN2YtZjFkOWMwODkzNzhiXkEyXkFqcGdeQXVyMTUwMzM4NzU0._V1_SX300.jpg"
-    }
+// const movie=
+//     {
+//         "Title": "The Amazing Spiderman 2 Webb Cut",
+//         "Year": "2021",
+//         "imdbID": "tt18351128",
+//         "Type": "movie",
+//         "Poster": "https://m.media-amazon.com/images/M/MV5BYzYzZDViNWYtNWViMS00NDMxLThlN2YtZjFkOWMwODkzNzhiXkEyXkFqcGdeQXVyMTUwMzM4NzU0._V1_SX300.jpg"
+//     }
 
 
 const App =()=>{
@@ -78,16 +78,12 @@ const App =()=>{
              ) : (
             
                 <div className="empty">
-                    <h2>No movies found</h2>
+                    <h2>No movies found 🥹</h2>
                     </div>
 
              )
             }
-
-           
-
-
-        </div>
+                </div>
     )
 }
 
